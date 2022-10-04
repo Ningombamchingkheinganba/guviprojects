@@ -1,0 +1,29 @@
+
+.row{
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  .profile {
+    padding: 0;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;;
+    
+    &__top {
+      height: 200px;
+      background-color: #2193b0;
+      position: relative;
+      h2{
+        color: #fff;
+        margin-top: auto;
+        position: absolute;
+        bottom: 10px;
+        left: 10px;
+      }
+    }
+    &__bottom{
+      padding: 1em;
+    }
+  }
+}

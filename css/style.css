@@ -1,0 +1,77 @@
+* {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+.row {
+  width: 100vw;
+  height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding: 2em;
+}
+
+.row form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  gap: 10px;
+  padding: 1em;
+  border-radius: 10px;
+  -webkit-box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+          box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.row form h1 {
+  margin: .5em 0;
+  color: #4d4c4c;
+}
+
+.row form label {
+  color: #535353;
+  font-size: small;
+}
+
+.row form input:not(:last-child) {
+  padding: 0 1em;
+  border: 1px solid grey;
+  outline: none;
+  width: 100%;
+  height: 35px;
+  border-radius: 3px;
+}
+
+.row form input[type=submit] {
+  padding: .5em;
+  width: -webkit-max-content;
+  width: -moz-max-content;
+  width: max-content;
+  color: #fff;
+  border: none;
+  background-color: #417241;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+.row form p {
+  font-size: small;
+  color: #535353;
+}
+/*# sourceMappingURL=style.css.map */

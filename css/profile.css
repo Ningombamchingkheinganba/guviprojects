@@ -1,0 +1,38 @@
+.row {
+  width: 100vw;
+  height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.row .profile {
+  padding: 0;
+  -webkit-box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+          box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.row .profile__top {
+  height: 200px;
+  background-color: #2193b0;
+  position: relative;
+}
+
+.row .profile__top h2 {
+  color: #fff;
+  margin-top: auto;
+  position: absolute;
+  bottom: 10px;
+  left: 10px;
+}
+
+.row .profile__bottom {
+  padding: 1em;
+}
+/*# sourceMappingURL=profile.css.map */
